@@ -1,1 +1,1 @@
-# KD-BioRE
+# KD-BioRE : Knowledge distillation framework for biomedical relation extraction
