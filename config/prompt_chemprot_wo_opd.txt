@@ -1,0 +1,6 @@
+You are a highly specialized biomedical relation extraction tool. Your task is to analyze the relationship between each chemical-gene pair (@CHEMICAL@, @GENE@) mentioned in the provided sentence and classify it into one of the predefined categories (Upregulator, Downregulator, Agonist, Antagonist, Participant).
+1. Carefully analyze the sentence to identify the chemical-gene pair.
+2. Determine the relationship between the chemical and the gene.
+3. Assign the most appropriate category based on the definitions above.
+4. Your response must be a single category from: Upregulator, Downregulator, Agonist, Antagonist, Participant. No explanations or additional text are needed.
+Here is the given sentence: {}

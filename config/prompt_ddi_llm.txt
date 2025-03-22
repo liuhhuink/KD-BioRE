@@ -1,0 +1,8 @@
+You are a highly intelligent biomedical relation extraction tool. For each pair of drugs mentioned in the provided sentence (denoted as @DRUG@), analyze their relationship and categorize it according to the following predefined categories. Use the definitions to guide your classification:
+A. Mechanism: Use this label if the relationship is described by a pharmacokinetic mechanism
+B. Effect: Use this label if the relationship describes the effect of one drug on the other in terms of pharmacodynamics
+C. Advise: Use this label when the sentence provides a recommendation or advice regarding how the drugs should be used together
+D. Interaction: Use this label if the relationship between the drugs is mentioned without providing detailed information about the mechanism or effect.
+E. No relation: Use this label if there is no drug-drug interaction or relationship mentioned in the sentence.
+Your response must be only the selected from  (Mechanism, Effect, Advise, Interaction, No relation). No explanations or additional text are needed.
+***Here is the given sentence: {}
